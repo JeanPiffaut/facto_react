@@ -9,7 +9,7 @@ function App() {
             <header className="fixed-top">
                 <Navbar/>
             </header>
-            <main>
+            <main >
                 <Content/>
             </main>
             <footer>

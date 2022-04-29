@@ -18,3 +18,7 @@ body {
     background-color: #8954ba!important;
     border-color: #8954ba!important;
 }
+
+main {
+    top: 0;
+}

@@ -2,6 +2,7 @@
     background-color: rgba(0,0,0,.6)!important;
     backdrop-filter: blur(10px);
     color: #FFFFFF !important;
+    padding: 0;
 }
 .navbar .facto-logo {
     width: 100px;

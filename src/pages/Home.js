@@ -1,7 +1,6 @@
 import {Component} from "react";
-import "./Content.css";
 
-export class Content extends Component {
+export default class Home extends Component {
     render() {
         return (
             <div className="after-header">

@@ -4,6 +4,12 @@
     "support_mail": "soporte@facto.cl"
   },
   "pages": {
+    "home": {
+      "id": "home",
+      "name": "Inicio",
+      "link": "/",
+      "element": "Home"
+    },
     "funcionalidades": {
       "id": "funcionalidades",
       "name": "Funcionalidades",
@@ -21,61 +27,74 @@
     "facturacion": {
       "id": "facturacion",
       "name": "Facturación",
-      "link": "/facturacion"
+      "link": "/facturacion",
+      "element": "Facturacion"
     },
     "contabilidad": {
       "id": "contabilidad",
       "name": "Contabilidad",
-      "link": "/contabilidad"
+      "link": "/contabilidad",
+      "element": "Contabilidad"
     },
     "punto_de_venta": {
       "id": "punto_de_venta",
       "name": "Punto de venta",
-      "link": "/punto-de-venta"
+      "link": "/punto-de-venta",
+      "element": "PuntoDeVenta"
     },
     "inventario": {
       "id": "inventario",
       "name": "Inventario",
-      "link": "/inventario"
+      "link": "/inventario",
+      "element": "Inventario"
     },
     "api_ecommerce": {
       "id": "api_ecommerce",
       "name": "API / E-commerce",
-      "link": "/integracion-facto-e-commerce"
+      "link": "/integracion-facto-e-commerce",
+      "element": "ApiEcommerce"
     },
     "caja_y_cobranza": {
       "id": "caja_y_cobranza",
       "name": "Caja y cobranza",
-      "link": "/caja-y-cobranza"
+      "link": "/caja-y-cobranza",
+      "element": "CajaYCobranza"
     },
     "actualizaciones": {
       "id": "actualizaciones",
       "name": "Actualizaciones a FACTO",
-      "link": "/actualizaciones"
+      "link": "/actualizaciones",
+      "element": "Actualizaciones"
     },
     "todas_las_funcionalidades": {
       "id": "todas_las_funcionalidades",
       "name": "Todas las funcionalidades",
-      "link": "/funcionalidades"
+      "link": "/funcionalidades",
+      "element": "TodasLasFuncionalidades"
     },
     "precios": {
       "id": "precios",
       "name": "Precios",
-      "link": "/precios"
+      "link": "/precios",
+      "element": "Precios"
     },
     "dispositivos": {
+      "id": "dispositivos",
       "name": "Dispositivos",
-      "link": "/producto/dispositivos"
+      "link": "/producto/dispositivos",
+      "element": "Dispositivos"
     },
     "firma_electronica": {
       "id": "firma_electronica",
       "name": "Firma electrónica",
-      "link": "/producto/firma-electronica"
+      "link": "/producto/firma-electronica",
+      "element": "FirmaElectronica"
     },
     "remuneraciones": {
       "id": "remuneraciones",
       "name": "Remuneraciones",
-      "link": "/previred"
+      "link": "/previred",
+      "element": "Remuneraciones"
     },
     "conocenos": {
       "id": "conocenos",
@@ -90,22 +109,26 @@
     "nuestro_modelo": {
       "id": "nuestro_modelo",
       "name": "Nuestro modelo gratuito",
-      "link": "/conoce-facto"
+      "link": "/conoce-facto",
+      "element": "NuestroModelo"
     },
     "seguridad": {
       "id": "seguridad",
       "name": "Seguridad",
-      "link": "/seguridad"
+      "link": "/seguridad",
+      "element": "Seguridad"
     },
     "blog": {
       "id": "blog",
       "name": "Blog",
-      "link": "/blog"
+      "link": "/blog",
+      "element": "Blog"
     },
     "beneficios": {
       "id": "beneficios",
       "name": "Beneficios",
-      "link": "/beneficios"
+      "link": "/beneficios",
+      "element": "Beneficios"
     },
     "ayuda": {
       "id": "ayuda",
@@ -119,42 +142,50 @@
     "contactos": {
       "id": "contactos",
       "name": "Contáctos",
-      "link": "/contactos"
+      "link": "/contactos",
+      "element": "Contactos"
     },
     "soporte": {
       "id": "soporte",
       "name": "Soporte",
-      "link": "/ayuda"
+      "link": "/ayuda",
+      "element": "Soporte"
     },
     "capacitate": {
       "id": "capacitate",
       "name": "Capacítate",
-      "link": "/capacitate"
+      "link": "/capacitate",
+      "element": "Capacitate"
     },
     "condiciones_de_uso": {
       "id": "condiciones_de_uso",
       "name": "Condiciones de uso",
-      "link": "/https://static.facto.cl/sitioweb_1.0/descargas/condicionDeUso/FACTO-condiciones-de-uso-v2.pdf"
+      "link": "/https://static.facto.cl/sitioweb_1.0/descargas/condicionDeUso/FACTO-condiciones-de-uso-v2.pdf",
+      "element": "CondicionesDeUso"
     },
     "politicas_de_seguridad": {
       "id": "politicas_de_seguridad",
       "name": "Políticas de seguridad y confidencialidad",
-      "link": "/seguridad"
+      "link": "/seguridad",
+      "element": "PoliticasDeSeguridad"
     },
     "trabaja_con_nosotros": {
       "id": "trabaja_con_nosotros",
       "name": "Trabaja con nosotros",
-      "link": "/https://portal.chiletrabajos.cl/empresa/facto"
+      "link": "/https://portal.chiletrabajos.cl/empresa/facto",
+      "element": "TrabajaConNosotros"
     },
     "ingresar": {
       "id": "ingresar",
       "name": "Ingresar",
-      "link": "/ingresar"
+      "link": "/ingresar",
+      "element": "Ingresar"
     },
     "probar_demo": {
       "id": "probar_demo",
       "name": "Demo FACTO",
-      "link": "/producto/facto-demo"
+      "link": "/producto/facto-demo",
+      "element": "ProbarDemo"
     }
   }
 }

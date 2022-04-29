@@ -1,4 +1,20 @@
 body {
-    font-family: Monserrat, sans-serif;
-    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+}
+
+.btn-sm {
+    padding: 2px 15px !important;
+    font-size: 12px !important;
+}
+
+.btn-success {
+    color: #FFFFFF;
+    background-color: #9CCE4A!important;
+    border-color: #9CCE4A!important;
+}
+
+.btn-demo {
+    color: #FFFFFF;
+    background-color: #8954ba!important;
+    border-color: #8954ba!important;
 }

@@ -3,9 +3,6 @@
     backdrop-filter: blur(10px);
     color: #FFFFFF !important;
 }
-.navbar {
-    height: 80px;
-}
 .navbar .facto-logo {
     width: 100px;
 }
@@ -24,4 +21,17 @@
 .navbar-content hr {
     width: 100%;
     margin: unset;
+    opacity: 1;
+}
+
+.nav-item .btn,
+.nav-link {
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+}
+
+.nav-item.button-content {
+    display: flex;
+    align-items: center;
+    padding-right: .5rem;
 }

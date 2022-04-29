@@ -6,7 +6,7 @@ import {Footer} from "./component/footer/Footer";
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
+            <header className="fixed-top">
                 <Navbar/>
             </header>
             <main>

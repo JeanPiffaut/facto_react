@@ -3,15 +3,17 @@ import
 import {Navbar} from "./component/navbar/Navbar";
 import {Content} from "./component/content/Content";
 import {Footer} from "./component/footer/Footer";
+import {Precios} from "./pages/Precios";
 
-function App() {
+function App(params) {
+
     return (
-        <div className="App">
+        <div>
             <header className="fixed-top">
                 <Navbar />
             </header>
-            <main >
-                <Content/>
+            <main>
+                {(params.page === "precios") ? <Precios /> : <Content />}
             </main>
             <footer>
                 <Footer />

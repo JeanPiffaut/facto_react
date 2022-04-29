@@ -5,6 +5,7 @@
   },
   "pages": {
     "funcionalidades": {
+      "id": "funcionalidades",
       "name": "Funcionalidades",
       "subpages": [
         "facturacion",
@@ -18,54 +19,66 @@
       ]
     },
     "facturacion": {
+      "id": "facturacion",
       "name": "Facturación",
-      "link": "facturacion"
+      "link": "/facturacion"
     },
     "contabilidad": {
+      "id": "contabilidad",
       "name": "Contabilidad",
-      "link": "contabilidad"
+      "link": "/contabilidad"
     },
     "punto_de_venta": {
+      "id": "punto_de_venta",
       "name": "Punto de venta",
-      "link": "punto-de-venta"
+      "link": "/punto-de-venta"
     },
     "inventario": {
+      "id": "inventario",
       "name": "Inventario",
-      "link": "inventario"
+      "link": "/inventario"
     },
     "api_ecommerce": {
+      "id": "api_ecommerce",
       "name": "API / E-commerce",
-      "link": "integracion-facto-e-commerce"
+      "link": "/integracion-facto-e-commerce"
     },
     "caja_y_cobranza": {
+      "id": "caja_y_cobranza",
       "name": "Caja y cobranza",
-      "link": "caja-y-cobranza"
+      "link": "/caja-y-cobranza"
     },
     "actualizaciones": {
+      "id": "actualizaciones",
       "name": "Actualizaciones a FACTO",
-      "link": "actualizaciones"
+      "link": "/actualizaciones"
     },
     "todas_las_funcionalidades": {
+      "id": "todas_las_funcionalidades",
       "name": "Todas las funcionalidades",
-      "link": "funcionalidades"
+      "link": "/funcionalidades"
     },
     "precios": {
+      "id": "precios",
       "name": "Precios",
-      "link": "precios"
+      "link": "/precios"
     },
     "dispositivos": {
       "name": "Dispositivos",
-      "link": "producto/dispositivos"
+      "link": "/producto/dispositivos"
     },
     "firma_electronica": {
+      "id": "firma_electronica",
       "name": "Firma electrónica",
-      "link": "producto/firma-electronica"
+      "link": "/producto/firma-electronica"
     },
     "remuneraciones": {
+      "id": "remuneraciones",
       "name": "Remuneraciones",
-      "link": "previred"
+      "link": "/previred"
     },
     "conocenos": {
+      "id": "conocenos",
       "name": "Conocenos",
       "subpages": [
         "nuestro_modelo",
@@ -75,22 +88,27 @@
       ]
     },
     "nuestro_modelo": {
+      "id": "nuestro_modelo",
       "name": "Nuestro modelo gratuito",
-      "link": "conoce-facto"
+      "link": "/conoce-facto"
     },
     "seguridad": {
+      "id": "seguridad",
       "name": "Seguridad",
-      "link": "seguridad"
+      "link": "/seguridad"
     },
     "blog": {
+      "id": "blog",
       "name": "Blog",
-      "link": "blog"
+      "link": "/blog"
     },
     "beneficios": {
+      "id": "beneficios",
       "name": "Beneficios",
-      "link": "beneficios"
+      "link": "/beneficios"
     },
     "ayuda": {
+      "id": "ayuda",
       "name": "Ayuda",
       "subpages": [
         "contactos",
@@ -99,28 +117,44 @@
       ]
     },
     "contactos": {
+      "id": "contactos",
       "name": "Contáctos",
-      "link": "contactos"
+      "link": "/contactos"
     },
     "soporte": {
+      "id": "soporte",
       "name": "Soporte",
-      "link": "ayuda"
+      "link": "/ayuda"
     },
     "capacitate": {
+      "id": "capacitate",
       "name": "Capacítate",
-      "link": "capacitate"
+      "link": "/capacitate"
     },
     "condiciones_de_uso": {
+      "id": "condiciones_de_uso",
       "name": "Condiciones de uso",
-      "link": "https://static.facto.cl/sitioweb_1.0/descargas/condicionDeUso/FACTO-condiciones-de-uso-v2.pdf"
+      "link": "/https://static.facto.cl/sitioweb_1.0/descargas/condicionDeUso/FACTO-condiciones-de-uso-v2.pdf"
     },
     "politicas_de_seguridad": {
+      "id": "politicas_de_seguridad",
       "name": "Políticas de seguridad y confidencialidad",
-      "link": "seguridad"
+      "link": "/seguridad"
     },
     "trabaja_con_nosotros": {
+      "id": "trabaja_con_nosotros",
       "name": "Trabaja con nosotros",
-      "link": "https://portal.chiletrabajos.cl/empresa/facto"
+      "link": "/https://portal.chiletrabajos.cl/empresa/facto"
+    },
+    "ingresar": {
+      "id": "ingresar",
+      "name": "Ingresar",
+      "link": "/ingresar"
+    },
+    "probar_demo": {
+      "id": "probar_demo",
+      "name": "Demo FACTO",
+      "link": "/producto/facto-demo"
     }
   }
 }

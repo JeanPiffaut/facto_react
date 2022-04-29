@@ -1,0 +1,126 @@
+{
+  "information": {
+    "phone": "+56 4 4202 0550",
+    "support_mail": "soporte@facto.cl"
+  },
+  "pages": {
+    "funcionalidades": {
+      "name": "Funcionalidades",
+      "subpages": [
+        "facturacion",
+        "contabilidad",
+        "punto_de_venta",
+        "inventario",
+        "caja_y_cobranza",
+        "api_ecommerce",
+        "actualizaciones",
+        "todas_las_funcionalidades"
+      ]
+    },
+    "facturacion": {
+      "name": "Facturación",
+      "link": "facturacion"
+    },
+    "contabilidad": {
+      "name": "Contabilidad",
+      "link": "contabilidad"
+    },
+    "punto_de_venta": {
+      "name": "Punto de venta",
+      "link": "punto-de-venta"
+    },
+    "inventario": {
+      "name": "Inventario",
+      "link": "inventario"
+    },
+    "api_ecommerce": {
+      "name": "API / E-commerce",
+      "link": "integracion-facto-e-commerce"
+    },
+    "caja_y_cobranza": {
+      "name": "Caja y cobranza",
+      "link": "caja-y-cobranza"
+    },
+    "actualizaciones": {
+      "name": "Actualizaciones a FACTO",
+      "link": "actualizaciones"
+    },
+    "todas_las_funcionalidades": {
+      "name": "Todas las funcionalidades",
+      "link": "funcionalidades"
+    },
+    "precios": {
+      "name": "Precios",
+      "link": "precios"
+    },
+    "dispositivos": {
+      "name": "Dispositivos",
+      "link": "producto/dispositivos"
+    },
+    "firma_electronica": {
+      "name": "Firma electrónica",
+      "link": "producto/firma-electronica"
+    },
+    "remuneraciones": {
+      "name": "Remuneraciones",
+      "link": "previred"
+    },
+    "conocenos": {
+      "name": "Conocenos",
+      "subpages": [
+        "nuestro_modelo",
+        "seguridad",
+        "blog",
+        "beneficios"
+      ]
+    },
+    "nuestro_modelo": {
+      "name": "Nuestro modelo gratuito",
+      "link": "conoce-facto"
+    },
+    "seguridad": {
+      "name": "Seguridad",
+      "link": "seguridad"
+    },
+    "blog": {
+      "name": "Blog",
+      "link": "blog"
+    },
+    "beneficios": {
+      "name": "Beneficios",
+      "link": "beneficios"
+    },
+    "ayuda": {
+      "name": "Ayuda",
+      "subpages": [
+        "contactos",
+        "soporte",
+        "capacitate"
+      ]
+    },
+    "contactos": {
+      "name": "Contáctos",
+      "link": "contactos"
+    },
+    "soporte": {
+      "name": "Soporte",
+      "link": "ayuda"
+    },
+    "capacitate": {
+      "name": "Capacítate",
+      "link": "capacitate"
+    },
+    "condiciones_de_uso": {
+      "name": "Condiciones de uso",
+      "link": "https://static.facto.cl/sitioweb_1.0/descargas/condicionDeUso/FACTO-condiciones-de-uso-v2.pdf"
+    },
+    "politicas_de_seguridad": {
+      "name": "Políticas de seguridad y confidencialidad",
+      "link": "seguridad"
+    },
+    "trabaja_con_nosotros": {
+      "name": "Trabaja con nosotros",
+      "link": "https://portal.chiletrabajos.cl/empresa/facto"
+    }
+  }
+}

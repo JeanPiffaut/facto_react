@@ -1,0 +1,53 @@
+.footer-section-1 {
+    background-image: url("./img/newsletter.webp");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-section-2 {
+    background-image: url("./img/back-footer.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    color: #FFFFFF !important;
+}
+
+.footer-section-2 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-section-2 ul {
+    padding: 0;
+}
+
+.footer-section-2 li {
+    list-style: none;
+}
+
+.footer-section-2 .card {
+    padding: 100px 0;
+    margin-top: -200px;
+}
+
+.footer-section-2 .logo-content {
+    width: 100%;
+    height: fit-content;
+}
+
+i.fab {
+    font-size: 34px;
+}
+
+.be-white {
+    border-right: 1px solid white;
+}
+
+.bs-white {
+    border-left: 1px solid white;
+}
+
+.bt-white {
+    border-top: 1px solid white;
+}

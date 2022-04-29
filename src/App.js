@@ -8,13 +8,13 @@ function App() {
     return (
         <div className="App">
             <header className="fixed-top">
-                <Navbar key={''}/>
+                <Navbar />
             </header>
             <main >
                 <Content/>
             </main>
             <footer>
-                <Footer key={''}/>
+                <Footer />
             </footer>
         </div>
     );

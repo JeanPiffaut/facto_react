@@ -66,8 +66,8 @@ export class Navbar extends Component {
                     <a className="nav-link dropdown-toggle" id={'dropdown_' + button} href="#" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">{pages[button]['name']}</a>
                     <ul className="dropdown-menu mb-2" aria-labelledby={'dropdown_' + button}>
-                        {pages[button]['subpages'].map((page) => (
-                            <li>
+                        {pages[button]['subpages'].map((page, i) => (
+                            <li key={pages[page]['name'] + '_' + i}>
                                 <a className="dropdown-item" href={pages[page]['link']}>{pages[page]['name']}</a>
                             </li>
                         ))}

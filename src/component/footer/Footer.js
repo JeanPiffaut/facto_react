@@ -38,22 +38,22 @@ export class Footer extends Component {
                             <div className="col-3">
                                 <h5 className="mb-4">{this.state['funcionalidades']['name']}</h5>
                                 <ul>
-                                    {this.state['funcionalidades']['subpages'].map(page => (
-                                        <li><a href={this.state[page]['link']}>{this.state[page]['name']}</a></li>
+                                    {this.state['funcionalidades']['subpages'].map((page, i) => (
+                                        <li key={page['name'] + '_' + i}><a href={this.state[page]['link']}>{this.state[page]['name']}</a></li>
                                     ))}
                                 </ul>
                             </div>
                             <div className="col-2 be-white">
                                 <h5 className="mb-4">{this.state['conocenos']['name']}</h5>
                                 <ul>
-                                    {this.state['conocenos']['subpages'].map(page => (
-                                        <li><a href={this.state[page]['link']}>{this.state[page]['name']}</a></li>
+                                    {this.state['conocenos']['subpages'].map((page, i) => (
+                                        <li key={page['name'] + '_' + i}><a href={this.state[page]['link']}>{this.state[page]['name']}</a></li>
                                     ))}
                                 </ul>
                                 <h5 className="mb-4">{this.state['ayuda']['name']}</h5>
                                 <ul>
-                                    {this.state['ayuda']['subpages'].map(page => (
-                                        <li><a href={this.state[page]['link']}>{this.state[page]['name']}</a></li>
+                                    {this.state['ayuda']['subpages'].map((page, i) => (
+                                        <li key={page['name'] + '_' + i}><a href={this.state[page]['link']}>{this.state[page]['name']}</a></li>
                                     ))}
                                 </ul>
                             </div>

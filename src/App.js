@@ -5,8 +5,8 @@ import './App.css';
 
 function App(params) {
     let Page = chargePage(config['pages'][params.page]['element']);
-    console.log(Page);
     if(Page === undefined) {
+        alert("Pagina no encontrada");
         Page = chargePage(config['pages']['home']['element']);
     }
     return (

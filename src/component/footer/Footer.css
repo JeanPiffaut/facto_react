@@ -13,7 +13,8 @@
     color: #FFFFFF !important;
 }
 
-.footer-section-2 a {
+.footer-section-2 a,
+.footer-section-2 p {
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -41,7 +42,7 @@ i.fab {
 }
 
 .be-white {
-    border-right: 1px solid white;
+    border-right: 1px solid white !important;
 }
 
 .bs-white {

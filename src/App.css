@@ -32,6 +32,76 @@ main {
     color: #b3cc5d !important;
 }
 
+.facto-color-2 {
+    color: #1a86c8 !important;
+}
+
 .facto-background-1 {
     background-color: #b3cc5d !important;
+}
+
+.facto-background-2 {
+    background-color: #1a86c8 !important;
+}
+
+.banner-1 {
+    background-image: url("./img/fondo-campaña.webp");
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.after-header {
+    padding-top: 80px;
+}
+
+.card-section {
+    margin-top: -120px;
+}
+
+.card-section .card {
+    height: 350px;
+    padding: 40px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+
+.card-section .card img {
+    width: 70px;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #737475;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.section-question {
+    background-image: url("./component/footer/img/back-footer.webp");
+    height: 830px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.facto-button-2 {
+    background-color: #5da8db !important;
+    border-radius: 10px;
+    border: 2px #5da8db solid;
+    color: #fff;
+    font-weight: 600 !important;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transition: .3s;
+    font-style: italic;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.facto-button-2:hover {
+    background: white!important;
+    color: #5da8db!important;
 }

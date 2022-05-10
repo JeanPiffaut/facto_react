@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/facto">
             <Routes>
                 <Route path="/" element={<App page="home"/>}/>
                 <Route key={pages['facturacion']['id']} path={pages['facturacion']['link']} element={<App page={pages['facturacion']['id']}/>}/>
